@@ -1,0 +1,17 @@
+when some jsp files are in "WEB-INF", we can't direct request to these.
+so, we must put jsp files that will use as a "Forward" destination in "WEB-INF".
+
+How to specify to "Forward" destination
+ @ jsp file -> /(path from /WebContent)
+ @ Servlet class -> /URLPattern
+
+How to specify to "Redirect" destination
+ @ jsp file -> /(path from /WebContent)
+ @ Servlet class -> /AppName/URLPattern
+
+
+
+if application of transfer source equals to that of transfer destination, 
+  we can use "forward" and "redirect", but "forward" is more faster than "redirect".
+else,
+  we can't use "forward", so we must use redirect.

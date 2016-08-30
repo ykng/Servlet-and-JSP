@@ -1,7 +1,7 @@
 # Servelt-and-JSP
 
-This repository is for practice of Servlet and jsp.
-　  
+This repository is for practice of Servlet and jsp.  
+Execution Environment: Eclipse (pleiades NEON)  
 　  
 ###html sample   
 /WebContent/hello.html  
